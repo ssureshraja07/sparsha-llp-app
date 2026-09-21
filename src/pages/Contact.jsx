@@ -11,13 +11,6 @@ export default function Contact() {
       action: "Call now"
     },
     {
-      Icon: MessageCircle,
-      title: "WhatsApp Us",
-      text: "Chat with our logistics team",
-      href: "https://wa.me/96892405877",
-      action: "Open WhatsApp"
-    },
-    {
       Icon: Mail,
       title: "Mail Us",
       text: "info@sparshlogistics.com",
@@ -27,7 +20,7 @@ export default function Contact() {
     {
       Icon: MapPin,
       title: "Locate Us",
-      text: "Tamil Nadu, India",
+      text: "SPARSHA LOGISTICS LLP, Office No: 107,PO BOX:1, POSTAL COD:322",
       href: "#map",
       action: "View location"
     }
@@ -55,8 +48,7 @@ export default function Contact() {
             </div>
           </Reveal>
 
-          <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-            {contacts.map(({ Icon, title, text, href, action }, index) => (
+<div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 max-w-5xl mx-auto">            {contacts.map(({ Icon, title, text, href, action }, index) => (
               <Reveal key={title} delay={index * 80}>
                 <a href={href} className="group block h-full rounded-3xl border border-slate-200 bg-white p-7 shadow-sm transition duration-300 hover:-translate-y-2 hover:border-skybrand-200 hover:shadow-soft">
                   <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-skybrand-50 text-skybrand-600 transition group-hover:bg-skybrand-500 group-hover:text-white">
