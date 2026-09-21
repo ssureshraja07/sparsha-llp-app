@@ -20,7 +20,7 @@ export default function Contact() {
     {
       Icon: MapPin,
       title: "Locate Us",
-      text: "SPARSHA LOGISTICS LLP, Office No: 107,PO BOX:1, POSTAL COD:322",
+      text: "SPARSHA LOGISTICS LLC AL REEM BUILDING, OFFICE NO : 107 PO BOX:1, POSTAL COD:322, SOHAR-FALAJ AL QABAIL, SULTANATE OF OMAN",
       href: "#map",
       action: "View location"
     }
