@@ -28,7 +28,7 @@ export default function ServiceDetails() {
   return (
     <>
       <section className="relative h-[320px] overflow-hidden bg-slate-950">
-        <img src={service.image} alt={service.title} className="absolute inset-0 h-full w-full object-cover" />
+        <img src={service.image} alt={service.title} className="absolute inset-0 h-60 w-60 object-cover" />
         <div className="absolute inset-0 bg-skybrand-800/75" />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-950/45 to-skybrand-700/20" />
         <div className="container-shell relative flex h-full flex-col justify-center text-white">

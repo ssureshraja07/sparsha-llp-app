@@ -57,8 +57,8 @@ export const services = [
     whyPoints: ["Import and export coordination", "Documentation follow-up", "Clearance process support", "Communication around shipment status"]
   },
   {
-    id: "road-transport",
-    title: "Road Transportation",
+    id: "Chatering",
+    title: "Chatering",
     short: "Reliable movement of cargo across cities, states and industrial corridors.",
     description: "End-to-end road transportation for commercial cargo with route planning, vehicle coordination and delivery visibility.",
     image: chatering ,
