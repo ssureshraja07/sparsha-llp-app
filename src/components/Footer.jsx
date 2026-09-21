@@ -7,10 +7,15 @@ export default function Footer() {
     <footer className="border-t border-slate-200 bg-slate-950 text-slate-300">
       <div className="container-shell grid gap-10 py-14 md:grid-cols-2 lg:grid-cols-4">
         <div>
-          <div className="mb-5 flex items-center gap-3"><span className="text-2xl font-black text-skybrand-400">Sparsha</span><img src={logo} alt="Sparsha Logistics LLP" className="logo-clean h-14 w-36 rounded-lg bg-white/95 px-2 object-contain" /></div>
+          <div className="mb-5 flex items-center gap-3"><span className="text-2xl font-black text-skybrand-400">Sparsha</span>
+          <span className="text-2xl font-black text-yellow-600">Logistics</span>
+          <img src={logo} alt="Sparsha Logistics LLP" className="logo-clean h-14 w-36 rounded-lg bg-white/95 px-2 object-contain" /></div>
           <p className="max-w-xs text-sm leading-7 text-slate-400">
-            Reliable logistics and shipping solutions built around timely delivery, clear communication and dependable service.
-          </p>
+SPARSHA LOGISTICS LLC 
+AL REEM BUILDING, 
+OFFICE NO : 107 
+PO BOX:1, POSTAL COD:322, 
+SOHAR-FALAJ AL QABAIL, SULTANATE OF OMAN          </p>
         </div>
 
         <div>
@@ -27,9 +32,9 @@ export default function Footer() {
         <div>
           <h3 className="mb-5 text-sm font-bold uppercase tracking-[0.18em] text-white">Contact</h3>
           <div className="grid gap-4 text-sm">
-            <a href="tel:+919000000000" className="flex gap-3 hover:text-skybrand-300"><Phone size={18} /> +91 90000 00000</a>
+            <a href="tel:+919000000000" className="flex gap-3 hover:text-skybrand-300"><Phone size={18} />+968 9240 5877</a>
             <a href="https://wa.me/919000000000" className="flex gap-3 hover:text-skybrand-300"><MessageCircle size={18} /> WhatsApp Us</a>
-            <a href="mailto:info@sparshlogistics.com" className="flex gap-3 hover:text-skybrand-300"><Mail size={18} /> info@sparshlogistics.com</a>
+            <a href="mailto:shan@sparshalogistics.com" className="flex gap-3 hover:text-skybrand-300"><Mail size={18} /> info@sparshlogistics.com</a>
             <span className="flex gap-3"><MapPin size={18} /> Tamil Nadu, India</span>
           </div>
         </div>

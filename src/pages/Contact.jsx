@@ -6,15 +6,15 @@ export default function Contact() {
     {
       Icon: Phone,
       title: "Call Us",
-      text: "+91 90000 00000",
-      href: "tel:+919000000000",
+      text: "+968 9240 5877",
+      href: "tel:+968 9240 5877",
       action: "Call now"
     },
     {
       Icon: MessageCircle,
       title: "WhatsApp Us",
       text: "Chat with our logistics team",
-      href: "https://wa.me/919000000000",
+      href: "https://wa.me/96892405877",
       action: "Open WhatsApp"
     },
     {

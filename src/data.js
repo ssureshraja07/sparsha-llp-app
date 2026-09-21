@@ -1,3 +1,12 @@
+import Warhouse from "./images/warehouse.png";
+import cargo from "./images/cargo.png";
+import handling from "./images/handling.png";
+import supplyChain from "./images/supply-chain.png";
+import sCargo from "./images/s-cargo.png";
+import doorstep from "./images/doorstep.png";
+import chatering from "./images/chatering.png";
+import movements from "./images/movements.png";
+
 export const services = [
   {
     id: "road-transport",
@@ -28,7 +37,7 @@ export const services = [
     title: "Warehousing",
     short: "Secure storage and organized handling for your inventory.",
     description: "Flexible warehousing support designed around safe storage, organized inventory handling and efficient dispatch.",
-    image: "https://images.unsplash.com/photo-1586528116493-da8b5f2b5d0c?auto=format&fit=crop&w=1200&q=85",
+    image: Warhouse,
     icon: "Warehouse",
     points: ["Storage management", "Inbound & outbound handling", "Inventory coordination", "Dispatch support"],
     detailHeading: "Warehousing that keeps inventory moving",
@@ -46,6 +55,18 @@ export const services = [
     detailHeading: "Clearer customs coordination for international cargo",
     detailText: "Customs processes require accurate documentation and close coordination. Our customs clearance support helps organize the documentation and follow-up required for import and export shipments while keeping customers informed about the movement.",
     whyPoints: ["Import and export coordination", "Documentation follow-up", "Clearance process support", "Communication around shipment status"]
+  },
+  {
+    id: "road-transport",
+    title: "Road Transportation",
+    short: "Reliable movement of cargo across cities, states and industrial corridors.",
+    description: "End-to-end road transportation for commercial cargo with route planning, vehicle coordination and delivery visibility.",
+    image: chatering ,
+    icon: "Truck",
+    points: ["Full truckload movement", "Part-load & scheduled dispatch", "Route planning", "Delivery coordination"],
+    detailHeading: "Road transportation built around dependable delivery",
+    detailText: "Our road transportation service is designed for businesses that need cargo to move safely and predictably between suppliers, warehouses, distribution points and customers. We coordinate the practical details around vehicle planning, dispatch, route movement and delivery handover.",
+    whyPoints: ["Flexible vehicle and load planning", "Route-focused movement coordination", "Clear dispatch and delivery communication", "Support for regular and project-based movements"]
   },
   {
     id: "project-cargo",
@@ -76,7 +97,7 @@ export const services = [
     title: "Distribution Management",
     short: "Planned movement of goods across multiple destinations.",
     description: "Distribution coordination that connects suppliers, hubs and delivery points through an organized movement plan.",
-    image: "https://images.unsplash.com/photo-1566576912321-d58f5c8e4b6f?auto=format&fit=crop&w=1200&q=85",
+    image: cargo,
     icon: "Route",
     points: ["Multi-location distribution", "Dispatch planning", "Hub coordination", "Delivery scheduling"],
     detailHeading: "Distribution management for connected delivery networks",
@@ -88,7 +109,7 @@ export const services = [
     title: "Packing & Cargo Handling",
     short: "Careful preparation and handling before your shipment moves.",
     description: "Cargo preparation and handling support focused on safer movement, organized loading and practical shipment readiness.",
-    image: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d8?auto=format&fit=crop&w=1200&q=85",
+    image: handling,
     icon: "PackageCheck",
     points: ["Cargo preparation", "Loading coordination", "Handling supervision", "Shipment readiness"],
     detailHeading: "Careful packing and cargo handling before every movement",
@@ -100,7 +121,7 @@ export const services = [
     title: "Supply Chain Support",
     short: "Connected logistics support for day-to-day supply chain operations.",
     description: "Flexible logistics support for businesses looking to simplify procurement-to-delivery movement and coordination.",
-    image: "https://images.unsplash.com/photo-1496115898806-2b023e4e3e0d?auto=format&fit=crop&w=1200&q=85",
+    image: supplyChain,
     icon: "Network",
     points: ["Movement planning", "Supplier coordination", "Logistics scheduling", "Operational support"],
     detailHeading: "Supply-chain support that connects the moving parts",
@@ -112,7 +133,7 @@ export const services = [
     title: "Specialized Cargo",
     short: "Coordinated transport for cargo requiring additional care.",
     description: "Specialized movement planning for cargo that needs additional handling, timing or transport considerations.",
-    image: "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&w=1200&q=85",
+    image: sCargo ,
     icon: "ThermometerSnowflake",
     points: ["Special handling", "Time-sensitive movement", "Equipment coordination", "Delivery monitoring"],
     detailHeading: "Specialized cargo movement with additional care",
@@ -136,7 +157,7 @@ export const services = [
     title: "Door-to-Door Logistics",
     short: "One coordinated journey from pickup point to final destination.",
     description: "A single logistics flow covering pickup, movement, coordination and final delivery for a simpler customer experience.",
-    image: "https://images.unsplash.com/photo-1565610222536-ef125c59da2e?auto=format&fit=crop&w=1200&q=85",
+    image: doorstep ,
     icon: "House",
     points: ["Pickup coordination", "Transit planning", "Delivery scheduling", "Single-point communication"],
     detailHeading: "Door-to-door logistics from pickup to final handover",
@@ -178,7 +199,7 @@ export const gallery = [
   {
     title: "Cargo Movement",
     category: "Logistics",
-    image: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d8?auto=format&fit=crop&w=1400&q=85"
+    image: movements 
   },
   {
     title: "Warehouse Handling",
