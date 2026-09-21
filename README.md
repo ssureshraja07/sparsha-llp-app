@@ -16,7 +16,7 @@ npm run build
 npm run preview
 ```
 
-## Main structure
+### Main structure
 
 - `src/components/` — Navbar, Footer, Reveal animation, ServiceCard
 - `src/pages/` — Home, Services, Service Details, Gallery, About, Contact
