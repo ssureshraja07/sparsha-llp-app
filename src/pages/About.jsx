@@ -24,9 +24,9 @@ export default function About() {
           <Reveal direction="right">
             <div>
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-skybrand-600">Our Company</span>
-              <h2 className="mt-3 text-4xl font-black tracking-tight text-slate-950">Sparsha Logistics LLP</h2>
+              <h2 className="mt-3 text-4xl font-black tracking-tight text-slate-950">Sparsha Logistics LLC</h2>
               <p className="mt-6 leading-8 text-slate-600">
-                Sparsha Logistics LLP is envisioned as an integrated logistics and shipping partner supporting businesses with transportation, freight movement, warehousing, distribution and related logistics services.
+                Sparsha Logistics LLC is envisioned as an integrated logistics and shipping partner supporting businesses with transportation, freight movement, warehousing, distribution and related logistics services.
               </p>
               <p className="mt-4 leading-8 text-slate-600">
                 Our motive is to bring different parts of the logistics journey together through responsible coordination, timely communication and solutions that fit the customer’s cargo.

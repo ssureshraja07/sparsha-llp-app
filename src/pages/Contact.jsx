@@ -71,7 +71,7 @@ export default function Contact() {
               <div className="flex min-h-80 items-center justify-center bg-[radial-gradient(circle_at_30%_30%,rgba(20,155,208,.2),transparent_35%),linear-gradient(135deg,#f8fafc,#e2e8f0)] p-10 text-center">
                 <div>
                   <MapPin className="mx-auto text-skybrand-500" size={40} />
-                  <h2 className="mt-4 text-2xl font-black text-slate-900">Sparsha Logistics LLP</h2>
+                  <h2 className="mt-4 text-2xl font-black text-slate-900">Sparsha Logistics LLC</h2>
                   <p className="mt-2 max-w-lg text-slate-500">Tamil Nadu, India. Replace this area with the company’s exact office address or Google Maps embed when the location is finalized.</p>
                 </div>
               </div>

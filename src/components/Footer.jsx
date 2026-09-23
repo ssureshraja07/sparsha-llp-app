@@ -35,7 +35,7 @@ SOHAR-FALAJ AL QABAIL, SULTANATE OF OMAN          </p>
             <a href="tel:+919000000000" className="flex gap-3 hover:text-skybrand-300"><Phone size={18} />+968 9240 5877</a>
             <a href="https://wa.me/919000000000" className="flex gap-3 hover:text-skybrand-300"><MessageCircle size={18} /> WhatsApp Us</a>
             <a href="mailto:shan@sparshalogistics.com" className="flex gap-3 hover:text-skybrand-300"><Mail size={18} /> info@sparshlogistics.com</a>
-            <span className="flex gap-3"><MapPin size={18} /> Tamil Nadu, India</span>
+            <span className="flex gap-3"><MapPin size={18} /> Oman</span>
           </div>
         </div>
 

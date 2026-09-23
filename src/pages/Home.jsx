@@ -36,7 +36,7 @@ export default function Home() {
           <div className="max-w-4xl pb-8 text-white sm:pb-0">
             <Reveal key={active}>
               <span className="inline-flex items-center gap-2 rounded-full border border-white/25 bg-white/10 px-4 py-2 text-xs font-bold uppercase tracking-[0.2em] text-skybrand-100 backdrop-blur-md">
-                Sparsha Logistics LLP
+                Sparsha Logistics LLC
               </span>
               <h1 className="mt-6 text-5xl font-black leading-[1.02] tracking-tight sm:text-6xl lg:text-8xl">
                 {heroSlides[active].title}
@@ -81,7 +81,7 @@ export default function Home() {
         <div className="container-shell text-center">
           <h2 className="text-2xl font-black tracking-tight sm:text-3xl">
             <span className="text-skybrand-500">Sparsha</span>{" "}
-            <span className="text-[#c99a32]">Logistics LLP</span>
+            <span className="text-[#c99a32]">Logistics LLC</span>
           </h2>
           <p className="mx-auto mt-2 max-w-2xl text-sm leading-6 text-slate-500">
             Integrated logistics and shipping solutions for businesses that keep moving.
